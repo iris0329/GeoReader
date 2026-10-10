@@ -1,22 +1,22 @@
 <h1 align="center">GeoReader: Learning Latent Geometry for Spatial Reasoning in Vision-Language Models</h1>
 
 <p align="center">
-  <a href="https://iris0329.github.io/">Rong Li</a><sup>1,7*</sup> ·
+  <a href="https://iris0329.github.io/">Rong Li</a><sup>1,6*</sup> ·
   <a href="https://sj-li.com/">Shijie Li</a><sup>2*</sup> ·
-  <a href="https://huangjy-pku.github.io/">Jiangyong Huang</a><sup>3,7</sup> ·
+  <a href="https://huangjy-pku.github.io/">Jiangyong Huang</a><sup>3,6</sup> ·
   <a href="https://ldkong.com/">Lingdong Kong</a><sup>4</sup> ·
   <a href="https://jiaming-zhou.github.io/">Jiaming Zhou</a><sup>1</sup><br>
-  <a href="https://dylanorange.github.io/">Dongyue Lu</a><sup>5</sup> ·
+  <a href="https://dylanorange.github.io/">Dongyue Lu</a><sup>4</sup> ·
   <a href="https://zeying-gong.github.io/">Zeying Gong</a><sup>1</sup> ·
-  <a href="https://buzz-beater.github.io/">Baoxiong Jia</a><sup>7†✉</sup> ·
-  <a href="https://junweiliang.me/">Junwei Liang</a><sup>1,6✉</sup> ·
-  <a href="https://siyuanhuang.com/">Siyuan Huang</a><sup>7✉</sup>
+  <a href="https://buzz-beater.github.io/">Baoxiong Jia</a><sup>6†✉</sup> ·
+  <a href="https://junweiliang.me/">Junwei Liang</a><sup>1,5✉</sup> ·
+  <a href="https://siyuanhuang.com/">Siyuan Huang</a><sup>6✉</sup>
 </p>
 
 <p align="center">
   <sup>1</sup>The Hong Kong University of Science and Technology (Guangzhou) &nbsp;·&nbsp; <sup>2</sup>Agency for Science, A*STAR<br>
-  <sup>3</sup>Peking University &nbsp;·&nbsp; <sup>4</sup>Apple &nbsp;·&nbsp; <sup>5</sup>National University of Singapore<br>
-  <sup>6</sup>The Hong Kong University of Science and Technology &nbsp;·&nbsp; <sup>7</sup>Beijing Institute for General Artificial Intelligence<br>
+  <sup>3</sup>Peking University &nbsp;·&nbsp; <sup>4</sup>National University of Singapore<br>
+  <sup>5</sup>The Hong Kong University of Science and Technology &nbsp;·&nbsp; <sup>6</sup>Beijing Institute for General Artificial Intelligence<br>
   <sup>*</sup>Equal contribution &nbsp;·&nbsp; <sup>†</sup>Project lead &nbsp;·&nbsp; <sup>✉</sup>Corresponding authors
 </p>
 
@@ -24,7 +24,6 @@
   <img src="assets/logos/hkust.svg" alt="The Hong Kong University of Science and Technology" height="34">&nbsp;&nbsp;
   <img src="assets/logos/astar.png" alt="Agency for Science, A*STAR" height="34">&nbsp;&nbsp;
   <img src="assets/logos/nus.svg" alt="National University of Singapore" height="34">&nbsp;&nbsp;
-  <img src="assets/logos/apple.svg" alt="Apple" height="34">&nbsp;&nbsp;
   <img src="assets/logos/pku.svg" alt="Peking University" height="34">&nbsp;&nbsp;
   <img src="assets/logos/bigai.png" alt="Beijing Institute for General Artificial Intelligence" height="34">
 </p>
