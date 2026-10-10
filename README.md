@@ -14,18 +14,19 @@
 </p>
 
 <p align="center">
-  <sup>1</sup>HKUST (Guangzhou) &nbsp;·&nbsp; <sup>2</sup>A*STAR &nbsp;·&nbsp; <sup>3</sup>Peking University &nbsp;·&nbsp; <sup>4</sup>Apple<br>
-  <sup>5</sup>National University of Singapore &nbsp;·&nbsp; <sup>6</sup>HKUST &nbsp;·&nbsp; <sup>7</sup>BIGAI<br>
+  <sup>1</sup>The Hong Kong University of Science and Technology (Guangzhou) &nbsp;·&nbsp; <sup>2</sup>Agency for Science, A*STAR<br>
+  <sup>3</sup>Peking University &nbsp;·&nbsp; <sup>4</sup>Apple &nbsp;·&nbsp; <sup>5</sup>National University of Singapore<br>
+  <sup>6</sup>The Hong Kong University of Science and Technology &nbsp;·&nbsp; <sup>7</sup>Beijing Institute for General Artificial Intelligence<br>
   <sup>*</sup>Equal contribution &nbsp;·&nbsp; <sup>†</sup>Project lead &nbsp;·&nbsp; <sup>✉</sup>Corresponding authors
 </p>
 
 <p align="center">
-  <img src="assets/logos/hkust.svg" alt="HKUST" height="34">&nbsp;&nbsp;
-  <img src="assets/logos/astar.png" alt="A*STAR" height="34">&nbsp;&nbsp;
-  <img src="assets/logos/nus.svg" alt="NUS" height="34">&nbsp;&nbsp;
+  <img src="assets/logos/hkust.svg" alt="The Hong Kong University of Science and Technology" height="34">&nbsp;&nbsp;
+  <img src="assets/logos/astar.png" alt="Agency for Science, A*STAR" height="34">&nbsp;&nbsp;
+  <img src="assets/logos/nus.svg" alt="National University of Singapore" height="34">&nbsp;&nbsp;
   <img src="assets/logos/apple.svg" alt="Apple" height="34">&nbsp;&nbsp;
   <img src="assets/logos/pku.svg" alt="Peking University" height="34">&nbsp;&nbsp;
-  <img src="assets/logos/bigai.png" alt="BIGAI" height="34">
+  <img src="assets/logos/bigai.png" alt="Beijing Institute for General Artificial Intelligence" height="34">
 </p>
 
 <p align="center">
