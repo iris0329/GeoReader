@@ -29,8 +29,9 @@
 </p>
 
 <p align="center">
-  <a href="https://iris0329.github.io/georeader-homepage/"><strong>🌐 Project Page</strong></a>
-  &nbsp;·&nbsp; <a href="https://arxiv.org/pdf/2610.18694"><strong>📄 arXiv</strong></a>
+  <a href="https://iris0329.github.io/georeader-homepage/"><img alt="Project Page" src="https://img.shields.io/badge/Project-Page-008D70?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" height="28"></a>
+  &nbsp;
+  <a href="https://arxiv.org/abs/2610.18694"><img alt="arXiv:2610.18694" src="https://img.shields.io/badge/arXiv-2610.18694-B31B1B?style=for-the-badge&amp;logo=arxiv&amp;logoColor=white" height="28"></a>
 </p>
 
 <p align="center">
