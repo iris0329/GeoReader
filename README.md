@@ -30,7 +30,7 @@
 
 <p align="center">
   <a href="https://iris0329.github.io/georeader-homepage/"><strong>🌐 Project Page</strong></a>
-  &nbsp;·&nbsp; 📄 arXiv (coming soon)
+  &nbsp;·&nbsp; <a href="https://arxiv.org/pdf/2610.18694"><strong>📄 arXiv</strong></a>
 </p>
 
 <p align="center">
@@ -94,6 +94,10 @@ Coming soon.
 @misc{li2026georeader,
   title  = {{GeoReader}: Learning Latent Geometry for Spatial Reasoning in Vision-Language Models},
   author = {Rong Li and Shijie Li and Jiangyong Huang and Lingdong Kong and Jiaming Zhou and Dongyue Lu and Zeying Gong and Baoxiong Jia and Junwei Liang and Siyuan Huang},
-  year   = {2026}
+  year   = {2026},
+  eprint = {2610.18694},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CV},
+  url = {https://arxiv.org/abs/2610.18694}
 }
 ```
