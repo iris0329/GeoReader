@@ -1,0 +1,123 @@
+{
+  "backbone": "Qwen3-VL-8B-Instruct",
+  "model_repository": "RRRong/GeoReader-Qwen3-VL-8B",
+  "model_revision": "65cb5a6debd32626ffa6aadce90a09bee5f3a1bf",
+  "dataset_repository": "RRRong/GeoReader-MultiSource",
+  "georeader_weights_available": true,
+  "vanilla_sft_weights_available": false,
+  "metrics": {
+    "georeader": {
+      "mean_accuracy_percent": 70.04588333333334,
+      "benchmarks": {
+        "vsi": {
+          "accuracy_percent": 66.1969,
+          "records": 5130,
+          "metric": "overall_accuracy",
+          "summary": "evaluation/georeader/vsi/eval_summary.json"
+        },
+        "spbench": {
+          "accuracy_percent": 76.71900000000001,
+          "records": 1328,
+          "metric": "combined_unweighted_subset_mean",
+          "summary": "evaluation/georeader/spbench/eval_summary.json"
+        },
+        "cvbench": {
+          "accuracy_percent": 86.5275,
+          "records": 2638,
+          "metric": "combined_accuracy",
+          "summary": "evaluation/georeader/cvbench/eval_summary.json"
+        },
+        "spar": {
+          "accuracy_percent": 65.713,
+          "records": 7211,
+          "metric": "overall.overall_accuracy",
+          "summary": "evaluation/georeader/spar/eval_summary.json"
+        },
+        "viewspatial": {
+          "accuracy_percent": 78.5189,
+          "records": 5712,
+          "metric": "overall_accuracy",
+          "summary": "evaluation/georeader/viewspatial/eval_summary.json"
+        },
+        "mmsi": {
+          "accuracy_percent": 46.6,
+          "records": 1000,
+          "metric": "overall_accuracy",
+          "summary": "evaluation/georeader/mmsi/eval_summary.json"
+        }
+      }
+    },
+    "vanilla_sft": {
+      "mean_accuracy_percent": 64.42061666666667,
+      "benchmarks": {
+        "cvbench": {
+          "accuracy_percent": 79.235,
+          "records": 2638,
+          "metric": "combined_accuracy",
+          "summary": "evaluation/vanilla_sft/cvbench/eval_summary.json"
+        },
+        "mmsi": {
+          "accuracy_percent": 40.9,
+          "records": 1000,
+          "metric": "overall_accuracy",
+          "summary": "evaluation/vanilla_sft/mmsi/eval_summary.json"
+        },
+        "spar": {
+          "accuracy_percent": 60.4845,
+          "records": 7211,
+          "metric": "overall.overall_accuracy",
+          "summary": "evaluation/vanilla_sft/spar/eval_summary.json"
+        },
+        "spbench": {
+          "accuracy_percent": 69.0068,
+          "records": 1328,
+          "metric": "combined_unweighted_subset_mean",
+          "summary": "evaluation/vanilla_sft/spbench/eval_summary.json"
+        },
+        "viewspatial": {
+          "accuracy_percent": 76.0854,
+          "records": 5712,
+          "metric": "overall_accuracy",
+          "summary": "evaluation/vanilla_sft/viewspatial/eval_summary.json"
+        },
+        "vsi": {
+          "accuracy_percent": 60.812,
+          "records": 5130,
+          "metric": "overall_accuracy",
+          "summary": "evaluation/vanilla_sft/vsi/eval_summary.json"
+        }
+      }
+    },
+    "mean_delta_points": 5.625266666666661,
+    "mean_rule": "unweighted mean of the six official benchmark metrics"
+  },
+  "mindcube_da3_qwen25_3b": {
+    "backbone": "Qwen2.5-VL-3B-Instruct",
+    "model_repository": "RRRong/GeoReader-Qwen2.5-VL-3B-MindCube",
+    "dataset_repository": "RRRong/GeoReader-MindCube",
+    "publication_status": "complete_public",
+    "accuracy_percent": 87.14285714285714,
+    "correct": 915,
+    "total": 1050,
+    "categories": {
+      "rotation": {
+        "correct": 121,
+        "total": 200
+      },
+      "among": {
+        "correct": 563,
+        "total": 600
+      },
+      "around": {
+        "correct": 231,
+        "total": 250
+      }
+    },
+    "standalone_stage1": "stage1/camera",
+    "model_revision": "f5f3fdf134c7401f23fbc4e0aef78ab112dbdba8",
+    "dataset_revision": "ebd600372a07c80b81c1fa61795f521a9686f9d6",
+    "georeader_weights_available": true,
+    "standalone_stage1_available": true
+  },
+  "dataset_revision": "43c488aea43e3b5475c59ad7de8f3bd11ec52d43"
+}

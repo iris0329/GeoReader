@@ -1,0 +1,10 @@
+# First install PyTorch; FlashAttention must be compatible with your local CUDA and PyTorch ABI.
+torch==2.6.0
+# Pinned Transformers commit used for all reported results.
+transformers @ git+https://github.com/huggingface/transformers.git@918dbf131d0df5b46e3f6e1d96174d62aa4d16d6
+accelerate==1.7.0
+numpy==2.2.6
+Pillow==12.3.0
+safetensors==0.8.0
+filelock==3.32.2
+huggingface-hub==1.27.0

@@ -1,0 +1,32 @@
+{
+  "name": "sixbench_qwen3_8b",
+  "model_type": "qwen3_vl",
+  "hidden_size": 4096,
+  "num_hidden_layers": 36,
+  "dataset_format": "georeader-sixbench",
+  "use_depth": true,
+  "stage1_world_size": 4,
+  "stage2": {
+    "world_size": 4,
+    "batch_per_gpu": 1,
+    "gradient_accumulation": 2,
+    "epochs": 2,
+    "max_steps": 33850,
+    "rows": 135399,
+    "learning_rate": 2e-05,
+    "warmup_steps": 100,
+    "weight_decay": 0.01,
+    "save_steps": 16925,
+    "logging_steps": 100,
+    "seed": 42
+  },
+  "benchmarks": [
+    "vsi",
+    "mmsi",
+    "spbench",
+    "viewspatial",
+    "cvbench",
+    "spar"
+  ],
+  "description": "epochs/max_steps control training budget; world_size/batch_per_gpu/gradient_accumulation control effective batch size; learning rate, warmup, and decay control updates; save_steps/logging_steps only control save and logging frequency. seed fixes random seeds for model initialization and training sampling, must be set before model creation."
+}

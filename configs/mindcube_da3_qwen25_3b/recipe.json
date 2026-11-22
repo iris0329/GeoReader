@@ -1,0 +1,29 @@
+{
+  "name": "mindcube_da3_qwen25_3b",
+  "model_type": "qwen2_5_vl",
+  "hidden_size": 2048,
+  "num_hidden_layers": 36,
+  "dataset_format": "georeader-mindcube",
+  "use_depth": false,
+  "stage1_world_size": 1,
+  "stage2": {
+    "world_size": 1,
+    "batch_per_gpu": 1,
+    "gradient_accumulation": 1,
+    "epochs": 10,
+    "max_steps": 100000,
+    "rows": 10000,
+    "learning_rate": 2e-05,
+    "warmup_steps": 100,
+    "weight_decay": 0.01,
+    "save_steps": 10000,
+    "logging_steps": 20,
+    "seed": 42
+  },
+  "benchmarks": [
+    "mindcube"
+  ],
+  "geometry": "da3",
+  "reference_accuracy_percent": 87.14285714285714,
+  "description": "epochs/max_steps control training budget; world_size/batch_per_gpu/gradient_accumulation control effective batch size; learning rate, warmup, and decay control updates; save_steps/logging_steps only control save and logging frequency. seed fixes random seeds for model initialization and training sampling, must be set before model creation."
+}

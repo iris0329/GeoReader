@@ -1,0 +1,2 @@
+# Decode original ScanNet++ depth LZ4 blocks; NumPy and Pillow dependencies used from the main training environment.
+lz4>=4.3
